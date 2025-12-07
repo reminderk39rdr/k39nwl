@@ -1,0 +1,122 @@
+{
+  "output_directory": "data/mirrors",
+  "chunk_size_mb": 50,
+  "readme_path": "README.md",
+  "sources": [
+    {
+      "name": "situs_judi_skiddle",
+      "display_name": "Situs Judi (Skiddle Mirror)",
+      "url": "https://github.com/Skiddle-ID/blocklist/releases/download/latest/situs_judi.txt",
+      "output_prefix": "situs_judi_skiddle"
+    },
+    {
+      "name": "ipaddress_isp_skiddle",
+      "display_name": "IP Address ISP (Skiddle Mirror)",
+      "url": "https://github.com/Skiddle-ID/blocklist/releases/download/latest/ipaddress_isp.txt",
+      "output_prefix": "ipaddress_isp_skiddle"
+    },
+    {
+      "name": "situs_judi_trustpositif",
+      "display_name": "Situs Judi (TrustPositif Mirror)",
+      "url": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/gambling_indonesia_domainonly.txt",
+      "output_prefix": "situs_judi_trustpositif"
+    },
+    {
+      "name": "trustpositif_gambling_full",
+      "display_name": "TrustPositif Gambling (Full)",
+      "url": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/gambling_indonesia.txt",
+      "output_prefix": "trustpositif_gambling_full"
+    },
+    {
+      "name": "trustpositif_gambling_001",
+      "display_name": "TrustPositif Gambling 001",
+      "url": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/gambling_indonesia_001.txt",
+      "output_prefix": "trustpositif_gambling_001"
+    },
+    {
+      "name": "trustpositif_gambling_002",
+      "display_name": "TrustPositif Gambling 002",
+      "url": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/gambling_indonesia_002.txt",
+      "output_prefix": "trustpositif_gambling_002"
+    },
+    {
+      "name": "trustpositif_gambling_003",
+      "display_name": "TrustPositif Gambling 003",
+      "url": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/gambling_indonesia_003.txt",
+      "output_prefix": "trustpositif_gambling_003"
+    },
+    {
+      "name": "trustpositif_gambling_004",
+      "display_name": "TrustPositif Gambling 004",
+      "url": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/gambling_indonesia_004.txt",
+      "output_prefix": "trustpositif_gambling_004"
+    },
+    {
+      "name": "trustpositif_gambling_onlydomains",
+      "display_name": "TrustPositif Gambling (Only Domains)",
+      "url": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/gambling-onlydomains.txt",
+      "output_prefix": "trustpositif_gambling_onlydomains"
+    },
+    {
+      "name": "trustpositif_gambling_porn_combo",
+      "display_name": "TrustPositif Gambling + Porn",
+      "url": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/gambling-porn-only.txt",
+      "output_prefix": "trustpositif_gambling_porn_combo"
+    },
+    {
+      "name": "trustpositif_gambling_v2",
+      "display_name": "TrustPositif Gambling v2",
+      "url": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/alsyundawy_gambling_v2.txt",
+      "output_prefix": "trustpositif_gambling_v2"
+    },
+    {
+      "name": "trustpositif_gambling_source",
+      "display_name": "TrustPositif Gambling Source",
+      "url": "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/alsyundawy_gambling_source.txt",
+      "output_prefix": "trustpositif_gambling_source"
+    },
+    {
+      "name": "komkom_domain_chunk00",
+      "display_name": "Komkom Domain Chunk 00",
+      "url": "https://raw.githubusercontent.com/lepasid/komkomkomkom/main/domain/chunk00",
+      "output_prefix": "komkom_domain_chunk00"
+    },
+    {
+      "name": "komkom_domain_chunk01",
+      "display_name": "Komkom Domain Chunk 01",
+      "url": "https://raw.githubusercontent.com/lepasid/komkomkomkom/main/domain/chunk01",
+      "output_prefix": "komkom_domain_chunk01"
+    },
+    {
+      "name": "komkom_domain_chunk02",
+      "display_name": "Komkom Domain Chunk 02",
+      "url": "https://raw.githubusercontent.com/lepasid/komkomkomkom/main/domain/chunk02",
+      "output_prefix": "komkom_domain_chunk02"
+    },
+    {
+      "name": "komkom_domain_chunk03",
+      "display_name": "Komkom Domain Chunk 03",
+      "url": "https://raw.githubusercontent.com/lepasid/komkomkomkom/main/domain/chunk03",
+      "output_prefix": "komkom_domain_chunk03"
+    },
+    {
+      "name": "komkom_ip_chunk00",
+      "display_name": "Komkom IP Chunk 00",
+      "url": "https://raw.githubusercontent.com/lepasid/komkomkomkom/main/address/chunk00",
+      "output_prefix": "komkom_ip_chunk00"
+    },
+    {
+      "name": "kominfo_domains",
+      "display_name": "Kominfo Official Domains (placeholder)",
+      "url": "https://trustpositif.komdigi.go.id/assets/db/domains",
+      "output_prefix": "kominfo_domains",
+      "headers": {
+        "User-Agent": "Placeholder-UA",
+        "X-CSRF-TOKEN": "REPLACE_WITH_TOKEN",
+        "X-RECAPTCHA-TOKEN": "REPLACE_WITH_TOKEN"
+      },
+      "enabled": false,
+      "note": "Flip enabled to true and provide the required tokens once Kominfo access is available."
+    }
+  ]
+}

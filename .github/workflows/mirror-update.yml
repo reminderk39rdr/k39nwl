@@ -1,0 +1,27 @@
+name: Mirror Updates
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # every 6 hours
+  workflow_dispatch:
+
+jobs:
+  update-mirrors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run mirror updater
+        run: |
+          python3 scripts/update_blocklist.py --config config/blocklist.mirrors.json
+
+      - name: Archive mirrors
+        run: |
+          tar -czf mirror-data.tar.gz data/mirrors README.md config/blocklist.mirrors.json
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mirror-data
+          path: mirror-data.tar.gz

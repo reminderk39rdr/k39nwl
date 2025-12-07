@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+data/mirrors/
+data/blocklist.db
+dist/releases/
+
+# Node/Vite
+dashboard/node_modules/
+dashboard/dist/
+
+.vscode/

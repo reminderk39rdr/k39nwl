@@ -1,0 +1,25 @@
+{
+  "output_directory": "data",
+  "chunk_size_mb": 50,
+  "readme_path": "README.md",
+  "sources": [
+    {
+      "name": "domains",
+      "display_name": "Domains",
+      "path": "sample_sources/domains.txt",
+      "output_prefix": "domains"
+    },
+    {
+      "name": "ip_addresses",
+      "display_name": "IP Address",
+      "path": "sample_sources/ip_addresses.txt",
+      "output_prefix": "ipaddress_isp"
+    },
+    {
+      "name": "situs_judi",
+      "display_name": "Situs Judi",
+      "path": "sample_sources/situs_judi.txt",
+      "output_prefix": "situs_judi"
+    }
+  ]
+}
